@@ -32,7 +32,7 @@ class _NewItemState extends State<NewItem> {
 
       final url = Uri.https(
         'shopping-list-7825f-default-rtdb.asia-southeast1.firebasedatabase.app',
-        '/shopping-list.json',
+        'shopping-list.json',
       );
 
       final response = await http.post(
